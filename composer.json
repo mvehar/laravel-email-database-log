@@ -1,6 +1,7 @@
 {
-    "name": "shvetsgroup/laravel-email-database-log",
+    "name": "mvehar/laravel-email-database-log",
     "description": "A simple database logger for all outgoing emails sent by Laravel website.",
+    "version": "10.0.0",
     "keywords": ["laravel", "markdown", "mail"],
     "license": "MIT",
     "authors": [
@@ -12,16 +13,20 @@
             "name": "Spaan Productions",
             "email": "info@spaanproductions.nl",
             "role": "Developer"
+        },
+        {
+              "name": "Matej Vehar",
+              "email": "m.vehar@gmail.com"
         }
     ],
     "require": {
-        "php": "^8.0.2",
-        "illuminate/support": "^9.0",
-        "doctrine/dbal": "^3.3",
-        "nesbot/carbon": "^2.0"
+        "php": "^8.1",
+        "illuminate/support": "^10.0",
+        "doctrine/dbal": "^3.5.1",
+        "nesbot/carbon": "^2.67"
     },
     "require-dev": {
-        "orchestra/testbench": "^7.0",
+        "orchestra/testbench": "^8.0",
         "phpunit/phpunit": "^9.0"
     },
     "autoload": {
