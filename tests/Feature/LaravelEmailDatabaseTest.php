@@ -1,14 +1,14 @@
 <?php
 
-namespace ShvetsGroup\LaravelEmailDatabaseLog\Tests\Feature;
+namespace MVehar\LaravelEmailDatabaseLog\Tests\Feature;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 use Symfony\Component\Mime\Encoder\Base64Encoder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use ShvetsGroup\LaravelEmailDatabaseLog\Tests\TestCase;
-use ShvetsGroup\LaravelEmailDatabaseLog\Tests\Mail\TestMail;
-use ShvetsGroup\LaravelEmailDatabaseLog\Tests\Mail\TestMailWithAttachment;
+use MVehar\LaravelEmailDatabaseLog\Tests\TestCase;
+use MVehar\LaravelEmailDatabaseLog\Tests\Mail\TestMail;
+use MVehar\LaravelEmailDatabaseLog\Tests\Mail\TestMailWithAttachment;
 
 class LaravelEmailDatabaseTest extends TestCase
 {

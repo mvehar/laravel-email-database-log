@@ -1,12 +1,12 @@
 <?php
 
-namespace ShvetsGroup\LaravelEmailDatabaseLog;
+namespace MVehar\LaravelEmailDatabaseLog;
 
 use Carbon\Carbon;
-use Symfony\Component\Mime\Email;
-use Illuminate\Support\Facades\DB;
-use Symfony\Component\Mime\Part\DataPart;
 use Illuminate\Mail\Events\MessageSending;
+use Illuminate\Support\Facades\DB;
+use Symfony\Component\Mime\Email;
+use Symfony\Component\Mime\Part\DataPart;
 
 class EmailLogger
 {

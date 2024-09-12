@@ -1,6 +1,6 @@
 <?php
 
-namespace ShvetsGroup\LaravelEmailDatabaseLog;
+namespace MVehar\LaravelEmailDatabaseLog;
 
 use Illuminate\Support\ServiceProvider;
 
